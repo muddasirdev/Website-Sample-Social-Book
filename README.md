@@ -1,22 +1,35 @@
-# SocialBook UI Sample
+# SocialBook Interface Sample
 
-A static social feed interface built with HTML, CSS, and JavaScript. It is a front-end layout sample with a feed, profile cards, sidebars, and menu/theme interactions.
+A static, multi-page social-network interface sample made with HTML, CSS, and JavaScript. The pages demonstrate a feed layout, a profile layout, a settings menu, and a light/dark theme toggle.
+
+## What works
+
+- Feed-style page in `index.html`
+- Profile-style page in `profile.html`
+- Settings menu visibility toggle
+- Light/dark theme toggle persisted in browser `localStorage`
+- Static image assets in `images/`
+
+The search field, profile links, notifications, inbox, posting, authentication, and social interactions are visual placeholders. This repository has no API, server, accounts, or persistent post data.
 
 ## Run locally
 
-Open `index.html` in a browser. The page uses local assets from `images/` and loads Font Awesome from its CDN.
+No build step is required. Open `index.html` in a browser, or serve the repository directory with any static HTTP server. Use the profile link/page to view `profile.html`.
 
-## Scope and attribution
+The page loads Font Awesome from an external kit URL, so those icons may not appear without network access. Most images and styles are local.
 
-This is a visual front-end sample. It does not include user accounts, a backend, persistent posts, or real social-network functionality. The HTML includes Easy Tutorials attribution and references, so retain appropriate credit when reusing tutorial-derived material.
+## Files
 
-## Project files
+- `index.html` — feed layout
+- `profile.html` — profile layout
+- `style.css` — responsive layout and theme styles
+- `script.js` — settings menu and persisted theme toggle
+- `images/` — logos, icons, and sample profile/feed images
 
-- `index.html` — page structure
-- `style.css` — layout and visual styles
-- `script.js` — menu and theme interactions
-- `images/` — interface assets
+## Attribution and usage
 
-## License
+The page titles and source markup attribute the design/tutorial to Easy Tutorials. This is a learning sample based on tutorial material; retain appropriate attribution and check the original source's reuse terms before redistribution. There is no license file in this repository.
 
-No license file is currently included. Contact the repository owner before reusing or distributing this code.
+## Limitations
+
+This is a front-end practice project rather than a functioning social network. Replace the sample content and add a backend, security, accessibility, and data handling before using it as a real product.
